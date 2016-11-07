@@ -6,7 +6,7 @@ Also sets up file structure: Source code in /app. Webpack bundles .js files into
 
 ## yarn scripts
   - `start`: Calls `build`, sets Node env to production and starts up node with server.js
-  - 'dev-start': Sets Node env to development and starts up node with server.js (sever.js detects whether we're in dev mode. If we are, then it starts up webpack with the dev config file.)
+  - `dev-start`: Sets Node env to development and starts up node with server.js (sever.js detects whether we're in dev mode. If we are, then it starts up webpack with the dev config file.)
   - `build`: Start up webpack with the deployment config and a few options
   - `lint-setup`: Config project eslint. Eslint needs to already be installed (either with `yarn` or `npm install`)
 
